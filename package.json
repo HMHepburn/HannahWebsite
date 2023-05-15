@@ -1,18 +1,20 @@
 {
-  "name": "hannahroomwebsite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "events": "^3.3.0",
-    "vite": "^4.3.2"
-  },
-  "dependencies": {
-    "three": "^0.152.2"
-  }
+    "name": "hannahroomwebsite",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "gh-pages -d dist"
+    },
+    "devDependencies": {
+        "events": "^3.3.0",
+        "vite": "^4.3.2"
+    },
+    "dependencies": {
+        "gh-pages": "^5.0.0",
+        "three": "^0.152.2"
+    }
 }
