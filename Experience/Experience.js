@@ -27,6 +27,8 @@ export default class Experience {
         this.resources = new Resources(assets);
         this.world = new World();
 
+        console.log("hello world");
+
         // event handlers
         this.time.on("update", () => {
             this.update();
